@@ -11,6 +11,10 @@ void PrintName()
     Console.WriteLine("DEMO TEST");
 }
 
+string returnDefaultName()
+{
+    return "Name1 Name2";
+}
 
 PrintName();
 
